@@ -1,0 +1,13 @@
+name: workflow_06
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Say Hello
+      run: echo Hello from workflow_06!
