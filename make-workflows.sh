@@ -1,4 +1,4 @@
-for i in $(seq -w 1 21);
+for i in $(seq -w 1 22);
 do
 cat <<EOF > ./.github/workflows/worflow_${i}.yml
 name: workflow_${i}
